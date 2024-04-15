@@ -1,0 +1,419 @@
+@prefix : <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4/> .
+
+<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4> rdf:type owl:Ontology ;
+                                                                          rdfs:comment "" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_acousticness
+:has_acousticness rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Tracks ;
+                  rdfs:range :Acousticness .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_album
+:has_album rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Artists ;
+           rdfs:range :Albums .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_danceability
+:has_danceability rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Tracks ;
+                  rdfs:range :Danceability .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_emotion
+:has_emotion rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Tracks ;
+             rdfs:range :Emotions .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_energy
+:has_energy rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :Tracks ;
+            rdfs:range :Energy .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_genre
+:has_genre rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Tracks ;
+           rdfs:range :Genre .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_instrumentalness
+:has_instrumentalness rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdfs:domain :Tracks ;
+                      rdfs:range :Instrumentalness .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_key
+:has_key rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdfs:domain :Tracks ;
+         rdfs:range :Key .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_liveness
+:has_liveness rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Tracks ;
+              rdfs:range :Liveness .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_loudness
+:has_loudness rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Tracks ;
+              rdfs:range :Loudness .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_mode
+:has_mode rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Tracks ;
+          rdfs:range :Mode .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_popularity
+:has_popularity rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :Tracks ;
+                rdfs:range :Popularity .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_speechness
+:has_speechness rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :Tracks ;
+                rdfs:range :Speechness .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_tempo
+:has_tempo rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Tracks ;
+           rdfs:range :Tempo .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_track
+:has_track rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Albums ,
+                       :Artists ;
+           rdfs:range :Tracks .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_weather
+:has_weather rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Days ;
+             rdfs:range :Weather .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#listened_on
+:listened_on rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Tracks ;
+             rdfs:range :Days .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Acousticness
+:Acousticness rdf:type owl:Class ;
+              rdfs:subClassOf :thing ;
+              rdfs:label "acousticness" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Albums
+:Albums rdf:type owl:Class ;
+        rdfs:subClassOf :thing ;
+        rdfs:label "albums" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Artists
+:Artists rdf:type owl:Class ;
+         rdfs:subClassOf :thing ;
+         rdfs:label "artists" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Danceability
+:Danceability rdf:type owl:Class ;
+              rdfs:subClassOf :thing ;
+              rdfs:label "danceability" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Days
+:Days rdf:type owl:Class ;
+      rdfs:subClassOf :thing ;
+      rdfs:label "days" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Emotions
+:Emotions rdf:type owl:Class ;
+          rdfs:subClassOf :thing ;
+          rdfs:label "emotions" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Energy
+:Energy rdf:type owl:Class ;
+        rdfs:subClassOf :thing ;
+        rdfs:label "energy" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Genre
+:Genre rdf:type owl:Class ;
+       rdfs:subClassOf :thing ;
+       rdfs:label "genre" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Instrumentalness
+:Instrumentalness rdf:type owl:Class ;
+                  rdfs:subClassOf :thing ;
+                  rdfs:label "instrumentalness" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key
+:Key rdf:type owl:Class ;
+     rdfs:subClassOf :thing ;
+     rdfs:label "key" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Liveness
+:Liveness rdf:type owl:Class ;
+          rdfs:subClassOf :thing ;
+          rdfs:label "liveness" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Loudness
+:Loudness rdf:type owl:Class ;
+          rdfs:subClassOf :thing ;
+          rdfs:label "loudness" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Mode
+:Mode rdf:type owl:Class ;
+      rdfs:subClassOf :thing ;
+      rdfs:label "mode" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Popularity
+:Popularity rdf:type owl:Class ;
+            rdfs:subClassOf :thing ;
+            rdfs:label "popularity" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Speechness
+:Speechness rdf:type owl:Class ;
+            rdfs:subClassOf :thing ;
+            rdfs:label "speechness" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tempo
+:Tempo rdf:type owl:Class ;
+       rdfs:subClassOf :thing ;
+       rdfs:label "tempo" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks
+:Tracks rdf:type owl:Class ;
+        rdfs:subClassOf :thing ;
+        rdfs:label "tracks" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather
+:Weather rdf:type owl:Class ;
+         rdfs:subClassOf :thing ;
+         rdfs:label "weather" .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#thing
+:thing rdf:type owl:Class ;
+       rdfs:subClassOf owl:Thing ;
+       rdfs:label "thing" .
+
+
+###  http://www.w3.org/2002/07/owl#Thing
+owl:Thing rdfs:label "rootnode" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#A
+:A rdf:type owl:NamedIndividual ,
+            :Key .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Afternoon
+:Afternoon rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Angry
+:Angry rdf:type owl:NamedIndividual ,
+                :Emotions .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#B
+:B rdf:type owl:NamedIndividual ,
+            :Key .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#C
+:C rdf:type owl:NamedIndividual ,
+            :Key .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Calm
+:Calm rdf:type owl:NamedIndividual ,
+               :Emotions .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Cloudy
+:Cloudy rdf:type owl:NamedIndividual ,
+                 :Weather .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#D
+:D rdf:type owl:NamedIndividual ,
+            :Key .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#E
+:E rdf:type owl:NamedIndividual ,
+            :Key .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Evening
+:Evening rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#F
+:F rdf:type owl:NamedIndividual ,
+            :Key .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Foggy
+:Foggy rdf:type owl:NamedIndividual ,
+                :Weather .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#G
+:G rdf:type owl:NamedIndividual ,
+            :Key .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Happy
+:Happy rdf:type owl:NamedIndividual ,
+                :Emotions .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Major
+:Major rdf:type owl:NamedIndividual ,
+                :Mode .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Minor
+:Minor rdf:type owl:NamedIndividual ,
+                :Mode .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Morning
+:Morning rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Night
+:Night rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Noon
+:Noon rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Rainy
+:Rainy rdf:type owl:NamedIndividual ,
+                :Weather .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Sad
+:Sad rdf:type owl:NamedIndividual ,
+              :Emotions .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Snowy
+:Snowy rdf:type owl:NamedIndividual ,
+                :Weather .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Stormy
+:Stormy rdf:type owl:NamedIndividual ,
+                 :Weather .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Sunny
+:Sunny rdf:type owl:NamedIndividual ,
+                :Weather .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Windy
+:Windy rdf:type owl:NamedIndividual ,
+                :Weather .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#A♭
+<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#A♭> rdf:type owl:NamedIndividual ,
+                                                                                     :Key .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#B♭
+<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#B♭> rdf:type owl:NamedIndividual ,
+                                                                                     :Key .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#D♭
+<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#D♭> rdf:type owl:NamedIndividual ,
+                                                                                     :Key .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#E♭
+<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#E♭> rdf:type owl:NamedIndividual ,
+                                                                                     :Key .
+
+
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#G♭
+<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#G♭> rdf:type owl:NamedIndividual ,
+                                                                                     :Key .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Albums
+                :Artists
+                :Tracks
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
