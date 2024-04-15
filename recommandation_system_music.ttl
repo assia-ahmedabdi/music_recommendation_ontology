@@ -139,114 +139,114 @@
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Acousticness
 :Acousticness rdf:type owl:Class ;
-              rdfs:subClassOf owl:Thing ;
+              rdfs:subClassOf :thing ;
               rdfs:label "acousticness" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Albums
 :Albums rdf:type owl:Class ;
-        rdfs:subClassOf owl:Thing ;
+        rdfs:subClassOf :thing ;
         rdfs:label "albums" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Artists
 :Artists rdf:type owl:Class ;
-         rdfs:subClassOf owl:Thing ;
+         rdfs:subClassOf :thing ;
          rdfs:label "artists" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Danceability
 :Danceability rdf:type owl:Class ;
-              rdfs:subClassOf owl:Thing ;
+              rdfs:subClassOf :thing ;
               rdfs:label "danceability" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Days
 :Days rdf:type owl:Class ;
-      rdfs:subClassOf owl:Thing ;
+      rdfs:subClassOf :thing ;
       rdfs:label "days" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Emotions
 :Emotions rdf:type owl:Class ;
-          rdfs:subClassOf owl:Thing ;
+          rdfs:subClassOf :thing ;
           rdfs:label "emotions" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Energy
 :Energy rdf:type owl:Class ;
-        rdfs:subClassOf owl:Thing ;
+        rdfs:subClassOf :thing ;
         rdfs:label "energy" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Genre
 :Genre rdf:type owl:Class ;
-       rdfs:subClassOf owl:Thing ;
+       rdfs:subClassOf :thing ;
        rdfs:label "genre" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Instrumentalness
 :Instrumentalness rdf:type owl:Class ;
-                  rdfs:subClassOf owl:Thing ;
+                  rdfs:subClassOf :thing ;
                   rdfs:label "instrumentalness" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key
 :Key rdf:type owl:Class ;
-     rdfs:subClassOf owl:Thing ;
+     rdfs:subClassOf :thing ;
      rdfs:label "key" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Liveness
 :Liveness rdf:type owl:Class ;
-          rdfs:subClassOf owl:Thing ;
+          rdfs:subClassOf :thing ;
           rdfs:label "liveness" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Loudness
 :Loudness rdf:type owl:Class ;
-          rdfs:subClassOf owl:Thing ;
+          rdfs:subClassOf :thing ;
           rdfs:label "loudness" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Mode
 :Mode rdf:type owl:Class ;
-      rdfs:subClassOf owl:Thing ;
+      rdfs:subClassOf :thing ;
       rdfs:label "mode" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Popularity
 :Popularity rdf:type owl:Class ;
-            rdfs:subClassOf owl:Thing ;
+            rdfs:subClassOf :thing ;
             rdfs:label "popularity" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Speechness
 :Speechness rdf:type owl:Class ;
-            rdfs:subClassOf owl:Thing ;
+            rdfs:subClassOf :thing ;
             rdfs:label "speechness" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tempo
 :Tempo rdf:type owl:Class ;
-       rdfs:subClassOf owl:Thing ;
+       rdfs:subClassOf :thing ;
        rdfs:label "tempo" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks
 :Tracks rdf:type owl:Class ;
-        rdfs:subClassOf owl:Thing ;
+        rdfs:subClassOf :thing ;
         rdfs:label "tracks" .
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather
 :Weather rdf:type owl:Class ;
-         rdfs:subClassOf owl:Thing ;
+         rdfs:subClassOf :thing ;
          rdfs:label "weather" .
 
 
-###  http://www.w3.org/2002/07/owl#Thing
-owl:Thing rdfs:label "thing" .
+###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#thing
+:thing rdf:type owl:Class .
 
 
 #################################################################
