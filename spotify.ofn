@@ -1,0 +1,595 @@
+Prefix(:=<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4>
+Annotation(rdfs:comment "")
+
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Acousticness>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Albums>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Artists>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Danceability>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Days>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Emotions>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Energy>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Genre>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Instrumentalness>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Liveness>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Loudness>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Mode>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Popularity>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Speechness>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tempo>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>))
+Declaration(Class(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_acousticness>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_album>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_danceability>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_emotion>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_energy>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_genre>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_instrumentalness>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_key>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_liveness>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_loudness>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_mode>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_popularity>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_speechness>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_tempo>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_track>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_weather>))
+Declaration(ObjectProperty(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#listened_on>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#A>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Afternoon>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Angry>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#B>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#C>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Calm>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Cloudy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#D>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#E>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Evening>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#F>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Foggy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#G>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Happy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Acousticness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Danceability>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Energy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Instrumentalness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Liveness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Loudness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Popularity>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Speechness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Tempo>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Acousticness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Danceability>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Energy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Instrumentalness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Liveness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Loudness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Popularity>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Speechness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Tempo>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Major>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Minor>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Acousticness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Danceability>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Energy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Instrumentalness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Liveness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Loudness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Popularity>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Speechness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Tempo>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Morning>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Night>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Noon>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Rainy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Sad>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Snowy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Stormy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Sunny>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Acousticness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Danceability>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Energy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Instrumentalness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Liveness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Loudness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Popularity>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Speechness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Tempo>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Acousticness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Danceability>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Energy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Instrumentalness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Liveness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Loudness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Popularity>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Speechness>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Tempo>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Windy>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#A♭>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#B♭>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#D♭>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#E♭>))
+Declaration(NamedIndividual(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#G♭>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_acousticness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_acousticness>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_acousticness> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_acousticness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_acousticness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Acousticness>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_album> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_album>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_album> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_album> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Artists>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_album> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Albums>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_danceability> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_danceability>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_danceability> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_danceability> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_danceability> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Danceability>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_emotion> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_emotion>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_emotion> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_emotion> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_emotion> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Emotions>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_energy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_energy>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_energy> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_energy> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_energy> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Energy>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_genre> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_genre>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_genre> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_genre> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_genre> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Genre>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_instrumentalness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_instrumentalness>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_instrumentalness> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_instrumentalness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_instrumentalness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Instrumentalness>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_key> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_key>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_key> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_liveness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_liveness>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_liveness> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_liveness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_liveness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Liveness>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_loudness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_loudness>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_loudness> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_loudness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_loudness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Loudness>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_mode> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_mode>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_mode> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_mode> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_mode> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Mode>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_popularity> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_popularity>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_popularity> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_popularity> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_popularity> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Popularity>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_speechness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_speechness>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_speechness> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_speechness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_speechness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Speechness>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_tempo> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_tempo>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_tempo> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_tempo> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_tempo> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tempo>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_track> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_track>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_track> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_track> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Albums>)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_track> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Artists>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_track> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_weather> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_weather>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_weather> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_weather> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Days>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#has_weather> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather>)
+
+# Object Property: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#listened_on> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#listened_on>)
+
+SubObjectPropertyOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#listened_on> owl:topObjectProperty)
+ObjectPropertyDomain(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#listened_on> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+ObjectPropertyRange(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#listened_on> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Days>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Acousticness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Acousticness>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Acousticness> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Albums> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Albums>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Albums> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Artists> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Artists>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Artists> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Danceability> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Danceability>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Danceability> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Days> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Days>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Days> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Emotions> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Emotions>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Emotions> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Energy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Energy>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Energy> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Genre> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Genre>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Genre> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Instrumentalness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Instrumentalness>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Instrumentalness> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Liveness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Liveness>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Liveness> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Loudness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Loudness>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Loudness> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Mode> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Mode>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Mode> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Popularity> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Popularity>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Popularity> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Speechness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Speechness>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Speechness> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tempo> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tempo>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tempo> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks> owl:Thing)
+
+# Class: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather>)
+
+SubClassOf(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather> owl:Thing)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#A> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#A>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#A>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Angry> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Angry>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Emotions> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Angry>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#B> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#B>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#B>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#C> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#C>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#C>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Calm> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Calm>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Emotions> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Calm>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Cloudy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Cloudy>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Cloudy>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#D> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#D>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#D>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#E> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#E>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#E>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#F> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#F>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#F>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Foggy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Foggy>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Foggy>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#G> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#G>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#G>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Happy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Happy>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Emotions> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Happy>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Acousticness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Acousticness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Acousticness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Acousticness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Danceability> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Danceability>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Danceability> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Danceability>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Energy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Energy>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Energy> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Energy>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Instrumentalness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Instrumentalness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Instrumentalness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Instrumentalness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Liveness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Liveness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Liveness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Liveness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Loudness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Loudness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Loudness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Loudness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Popularity> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Popularity>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Popularity> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Popularity>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Speechness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Speechness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Speechness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Speechness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Tempo> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Tempo>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tempo> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#High_Tempo>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Acousticness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Acousticness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Acousticness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Acousticness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Danceability> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Danceability>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Danceability> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Danceability>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Energy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Energy>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Energy> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Energy>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Instrumentalness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Instrumentalness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Instrumentalness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Instrumentalness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Liveness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Liveness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Liveness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Liveness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Loudness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Loudness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Loudness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Loudness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Popularity> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Popularity>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Popularity> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Popularity>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Speechness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Speechness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Speechness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Speechness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Tempo> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Tempo>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tempo> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Low_Tempo>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Major> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Major>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Mode> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Major>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Minor> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Minor>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Mode> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Minor>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Acousticness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Acousticness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Acousticness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Acousticness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Danceability> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Danceability>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Danceability> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Danceability>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Energy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Energy>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Energy> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Energy>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Instrumentalness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Instrumentalness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Instrumentalness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Instrumentalness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Liveness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Liveness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Liveness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Liveness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Loudness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Loudness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Loudness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Loudness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Popularity> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Popularity>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Popularity> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Popularity>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Speechness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Speechness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Speechness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Speechness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Tempo> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Tempo>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tempo> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Moderate_Tempo>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Rainy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Rainy>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Rainy>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Sad> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Sad>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Emotions> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Sad>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Snowy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Snowy>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Snowy>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Stormy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Stormy>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Stormy>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Sunny> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Sunny>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Sunny>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Acousticness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Acousticness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Acousticness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Acousticness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Danceability> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Danceability>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Danceability> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Danceability>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Energy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Energy>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Energy> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Energy>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Instrumentalness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Instrumentalness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Instrumentalness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Instrumentalness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Liveness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Liveness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Liveness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Liveness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Loudness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Loudness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Loudness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Loudness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Popularity> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Popularity>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Popularity> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Popularity>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Speechness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Speechness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Speechness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Speechness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Tempo> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Tempo>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tempo> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_High_Tempo>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Acousticness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Acousticness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Acousticness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Acousticness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Danceability> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Danceability>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Danceability> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Danceability>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Energy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Energy>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Energy> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Energy>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Instrumentalness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Instrumentalness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Instrumentalness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Instrumentalness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Liveness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Liveness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Liveness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Liveness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Loudness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Loudness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Loudness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Loudness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Popularity> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Popularity>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Popularity> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Popularity>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Speechness> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Speechness>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Speechness> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Speechness>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Tempo> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Tempo>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tempo> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Very_Low_Tempo>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Windy> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Windy>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Weather> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Windy>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#A♭> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#A♭>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#A♭>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#B♭> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#B♭>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#B♭>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#D♭> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#D♭>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#D♭>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#E♭> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#E♭>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#E♭>)
+
+# Individual: <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#G♭> (<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#G♭>)
+
+ClassAssertion(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Key> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#G♭>)
+
+
+DisjointClasses(<http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Albums> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Artists> <http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#Tracks>)
+)
