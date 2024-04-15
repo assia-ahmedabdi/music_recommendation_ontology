@@ -1,0 +1,919 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal></Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Acousticness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Albums"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artists"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Danceability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Days"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emotions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instrumentalness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Key"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liveness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loudness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Popularity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speechness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tempo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tracks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weather"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_acousticness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_album"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_danceability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_emotion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_energy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_genre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_instrumentalness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_key"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_liveness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_loudness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_mode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_popularity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_speechness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_tempo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_track"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_weather"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#listened_on"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Afternoon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Angry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Calm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cloudy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#E"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Evening"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#F"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Foggy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#G"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Happy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Acousticness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Danceability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Energy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Instrumentalness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Liveness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Loudness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Popularity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Speechness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High_Tempo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Acousticness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Danceability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Energy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Instrumentalness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Liveness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Loudness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Popularity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Speechness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low_Tempo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Major"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Minor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_Acousticness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_Danceability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_Energy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_Instrumentalness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_Liveness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_Loudness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_Popularity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_Speechness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moderate_Tempo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Morning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Night"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Noon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rainy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snowy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stormy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sunny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_High_Acousticness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_High_Danceability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_High_Energy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_High_Instrumentalness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_High_Liveness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_High_Loudness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_High_Popularity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_High_Speechness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_High_Tempo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Low_Acousticness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Low_Danceability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Low_Energy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Low_Instrumentalness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Low_Liveness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Low_Loudness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Low_Popularity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Low_Speechness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Very_Low_Tempo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Windy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A♭"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#B♭"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D♭"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#E♭"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#G♭"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Acousticness"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Albums"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artists"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Danceability"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Days"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emotions"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energy"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genre"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instrumentalness"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Key"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liveness"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loudness"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mode"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Popularity"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speechness"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tempo"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tracks"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weather"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Albums"/>
+        <Class IRI="#Artists"/>
+        <Class IRI="#Tracks"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Key"/>
+        <NamedIndividual IRI="#A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotions"/>
+        <NamedIndividual IRI="#Angry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Key"/>
+        <NamedIndividual IRI="#B"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Key"/>
+        <NamedIndividual IRI="#C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotions"/>
+        <NamedIndividual IRI="#Calm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weather"/>
+        <NamedIndividual IRI="#Cloudy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Key"/>
+        <NamedIndividual IRI="#D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Key"/>
+        <NamedIndividual IRI="#E"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Key"/>
+        <NamedIndividual IRI="#F"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weather"/>
+        <NamedIndividual IRI="#Foggy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Key"/>
+        <NamedIndividual IRI="#G"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotions"/>
+        <NamedIndividual IRI="#Happy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acousticness"/>
+        <NamedIndividual IRI="#High_Acousticness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Danceability"/>
+        <NamedIndividual IRI="#High_Danceability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energy"/>
+        <NamedIndividual IRI="#High_Energy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instrumentalness"/>
+        <NamedIndividual IRI="#High_Instrumentalness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Liveness"/>
+        <NamedIndividual IRI="#High_Liveness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loudness"/>
+        <NamedIndividual IRI="#High_Loudness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Popularity"/>
+        <NamedIndividual IRI="#High_Popularity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speechness"/>
+        <NamedIndividual IRI="#High_Speechness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tempo"/>
+        <NamedIndividual IRI="#High_Tempo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acousticness"/>
+        <NamedIndividual IRI="#Low_Acousticness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Danceability"/>
+        <NamedIndividual IRI="#Low_Danceability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energy"/>
+        <NamedIndividual IRI="#Low_Energy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instrumentalness"/>
+        <NamedIndividual IRI="#Low_Instrumentalness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Liveness"/>
+        <NamedIndividual IRI="#Low_Liveness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loudness"/>
+        <NamedIndividual IRI="#Low_Loudness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Popularity"/>
+        <NamedIndividual IRI="#Low_Popularity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speechness"/>
+        <NamedIndividual IRI="#Low_Speechness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tempo"/>
+        <NamedIndividual IRI="#Low_Tempo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mode"/>
+        <NamedIndividual IRI="#Major"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mode"/>
+        <NamedIndividual IRI="#Minor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acousticness"/>
+        <NamedIndividual IRI="#Moderate_Acousticness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Danceability"/>
+        <NamedIndividual IRI="#Moderate_Danceability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energy"/>
+        <NamedIndividual IRI="#Moderate_Energy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instrumentalness"/>
+        <NamedIndividual IRI="#Moderate_Instrumentalness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Liveness"/>
+        <NamedIndividual IRI="#Moderate_Liveness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loudness"/>
+        <NamedIndividual IRI="#Moderate_Loudness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Popularity"/>
+        <NamedIndividual IRI="#Moderate_Popularity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speechness"/>
+        <NamedIndividual IRI="#Moderate_Speechness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tempo"/>
+        <NamedIndividual IRI="#Moderate_Tempo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weather"/>
+        <NamedIndividual IRI="#Rainy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Emotions"/>
+        <NamedIndividual IRI="#Sad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weather"/>
+        <NamedIndividual IRI="#Snowy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weather"/>
+        <NamedIndividual IRI="#Stormy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weather"/>
+        <NamedIndividual IRI="#Sunny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acousticness"/>
+        <NamedIndividual IRI="#Very_High_Acousticness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Danceability"/>
+        <NamedIndividual IRI="#Very_High_Danceability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energy"/>
+        <NamedIndividual IRI="#Very_High_Energy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instrumentalness"/>
+        <NamedIndividual IRI="#Very_High_Instrumentalness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Liveness"/>
+        <NamedIndividual IRI="#Very_High_Liveness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loudness"/>
+        <NamedIndividual IRI="#Very_High_Loudness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Popularity"/>
+        <NamedIndividual IRI="#Very_High_Popularity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speechness"/>
+        <NamedIndividual IRI="#Very_High_Speechness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tempo"/>
+        <NamedIndividual IRI="#Very_High_Tempo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acousticness"/>
+        <NamedIndividual IRI="#Very_Low_Acousticness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Danceability"/>
+        <NamedIndividual IRI="#Very_Low_Danceability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energy"/>
+        <NamedIndividual IRI="#Very_Low_Energy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instrumentalness"/>
+        <NamedIndividual IRI="#Very_Low_Instrumentalness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Liveness"/>
+        <NamedIndividual IRI="#Very_Low_Liveness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Loudness"/>
+        <NamedIndividual IRI="#Very_Low_Loudness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Popularity"/>
+        <NamedIndividual IRI="#Very_Low_Popularity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Speechness"/>
+        <NamedIndividual IRI="#Very_Low_Speechness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tempo"/>
+        <NamedIndividual IRI="#Very_Low_Tempo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Weather"/>
+        <NamedIndividual IRI="#Windy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Key"/>
+        <NamedIndividual IRI="#A♭"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Key"/>
+        <NamedIndividual IRI="#B♭"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Key"/>
+        <NamedIndividual IRI="#D♭"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Key"/>
+        <NamedIndividual IRI="#E♭"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Key"/>
+        <NamedIndividual IRI="#G♭"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_acousticness"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_album"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_danceability"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_emotion"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_energy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_genre"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_instrumentalness"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_key"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_liveness"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_loudness"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_mode"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_popularity"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_speechness"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_tempo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_track"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_weather"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#listened_on"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_acousticness"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_album"/>
+        <Class IRI="#Artists"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_danceability"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_emotion"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_energy"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_genre"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_instrumentalness"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_key"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_liveness"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_loudness"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_mode"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_popularity"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_speechness"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_tempo"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_track"/>
+        <Class IRI="#Albums"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_track"/>
+        <Class IRI="#Artists"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_weather"/>
+        <Class IRI="#Days"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#listened_on"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_acousticness"/>
+        <Class IRI="#Acousticness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_album"/>
+        <Class IRI="#Albums"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_danceability"/>
+        <Class IRI="#Danceability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_emotion"/>
+        <Class IRI="#Emotions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_energy"/>
+        <Class IRI="#Energy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_genre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_instrumentalness"/>
+        <Class IRI="#Instrumentalness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_key"/>
+        <Class IRI="#Key"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_liveness"/>
+        <Class IRI="#Liveness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_loudness"/>
+        <Class IRI="#Loudness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_mode"/>
+        <Class IRI="#Mode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_popularity"/>
+        <Class IRI="#Popularity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_speechness"/>
+        <Class IRI="#Speechness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_tempo"/>
+        <Class IRI="#Tempo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_track"/>
+        <Class IRI="#Tracks"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_weather"/>
+        <Class IRI="#Weather"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#listened_on"/>
+        <Class IRI="#Days"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
