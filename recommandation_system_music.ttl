@@ -246,7 +246,8 @@
 
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#thing
-:thing rdf:type owl:Class .
+:thing rdf:type owl:Class ;
+       rdfs:label "thing" .
 
 
 #################################################################
