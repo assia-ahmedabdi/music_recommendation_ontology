@@ -251,7 +251,7 @@
 
 
 ###  http://www.w3.org/2002/07/owl#Thing
-owl:Thing rdfs:label "root_node" .
+owl:Thing rdfs:label "rootnode" .
 
 
 #################################################################
