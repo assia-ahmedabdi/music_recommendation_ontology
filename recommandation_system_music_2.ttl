@@ -138,6 +138,7 @@
 
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4#thing
 :thing rdf:type owl:Class ;
+       rdfs:subClassOf owl:Thing ;
        rdfs:label "thing" .
 
 
@@ -247,6 +248,10 @@
 :Weather rdf:type owl:Class ;
          rdfs:subClassOf :thing ;
          rdfs:label "weather" .
+
+
+###  http://www.w3.org/2002/07/owl#Thing
+owl:Thing rdfs:label "root_node" .
 
 
 #################################################################
@@ -621,13 +626,6 @@
 ###  http://www.semanticweb.org/assia/ontologies/2024/2/untitled-ontology-4/Windy
 :Windy rdf:type owl:NamedIndividual ,
                 :Weather .
-
-
-#################################################################
-#    Annotations
-#################################################################
-
-owl:Thing rdfs:label "root_node" .
 
 
 #################################################################
