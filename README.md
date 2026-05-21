@@ -12,9 +12,9 @@ The system takes two inputs:
 
 It then queries the populated ontology to surface the most contextually appropriate Spotify playlist for the moment.
 
-## 🕸️ Semantic Network Schema
+## 🕸️ Semantic Network
 
-![Ontology Schema](ontology_protege/schema.png)
+![Ontology Schema](schema.jpg)
 
 ## 🛠️ Technologies
 
